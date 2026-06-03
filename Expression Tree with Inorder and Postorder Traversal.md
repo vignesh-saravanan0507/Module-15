@@ -18,12 +18,23 @@ To write a Python program to build the given expression tree and print the inord
 
 ## PROGRAM:
 
-```
-WRITE YOUR CODE
+```python
+from binarytree import build
+nodes=['A','B','C','D','E','F',None,'G']
+root=build(nodes)
+print("Binary tree:")
+for i in (root.values):
+    print(i,'-->',end="")
+print("\nlevel order traversal:",root.levelorder)
+print("\nInorder traversal:",root.inorder)
+print("\nPreorder traversal:",root.preorder)
+print("\nPostorder traversal:",root.postorder)
 ```
 
 ## OUTPUT
-```
-```
+
+<img width="937" height="197" alt="image" src="https://github.com/user-attachments/assets/2cda059d-a7ba-4e92-b121-65748064b09a" />
 
 ## RESULT
+
+Thus, the python code is written and executed successfully.

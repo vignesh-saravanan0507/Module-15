@@ -19,15 +19,23 @@ To write a Python program to build and evaluate the given Expression tree.
 
 ---
 
+
 ## PROGRAM:
 
-```
-WRITE YOUR CODE
+```python
+
+from binarytree import build
+x=['*','+','-',9,3,8,4]
+t=build(x)
+print(t.inorder)
+print(t.postorder)
+
 ```
 
 ## OUTPUT:
-```
-```
+
+<img width="848" height="117" alt="image" src="https://github.com/user-attachments/assets/99b8da23-79d5-4ecf-a84a-10e4caef6030" />
 
 ## RESULT:
 
+Thus, the python code is written and executed successfully.
